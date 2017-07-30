@@ -13,6 +13,7 @@ yum -y install git vim-enhanced bash-completion
 yum -y install yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum -y install docker-ce
+yum -y install docker-compose
 systemctl start docker
 docker run hello-world
 SCRIPT
