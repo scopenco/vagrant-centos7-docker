@@ -1,0 +1,12 @@
+# Editors etc
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+.vagrant/
+
+.kitchen/
+.kitchen.local.yml
