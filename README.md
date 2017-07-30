@@ -2,7 +2,7 @@
 
 ### Desciprion
 
-This CentOS 7 [Vagrant](https://www.vagrantup.com/)  environment with Docker CE.
+This CentOS 7 [Vagrant](https://www.vagrantup.com/)  environment with Docker CE and AWS cli.
 To access to host machine files may be used `/opt/Home` or `/opt/src` inside VM.
 
 ### Requirements
