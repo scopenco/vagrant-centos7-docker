@@ -13,6 +13,8 @@ yum -y install git vim-enhanced bash-completion
 yum -y install yum-utils device-mapper-persistent-data lvm2
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 yum -y install docker-ce
+systemctl start docker
+docker run hello-world
 SCRIPT
 
 Vagrant.configure("2") do |config|
